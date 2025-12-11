@@ -2,7 +2,7 @@
 Bienvenido a Climas Locos, su herramienta digital para simular y predecir el comportamiento futuro de las temperaturas basándose en datos históricos. Esta guía le explicará paso a paso cómo operar el programa.
 
 1. Pantalla de Inicio y Carga de Datos
-Al abrir el programa, verá la pantalla de bienvenida con un fondo y el título del proyecto. Antes de poder realizar cualquier predicción, el sistema necesita "aprender" de datos pasados.
+Al abrir el programa, verá la pantalla de bienvenida con un fondo y el título del proyecto. Antes de poder realizar cualquier predicción, el sistema necesita cargar una base de datos.
 
 Cargar Base de Datos:
 
@@ -12,7 +12,6 @@ Haga clic en él. Se abrirá una ventana para buscar archivos.
 
 Seleccione el archivo de registros (formato .csv) que contiene la historia climática.
 
-Confirmación: Si el archivo es válido, aparecerá un mensaje de "Éxito" y verá el nombre de la base de datos en la pantalla principal.
 
 Ingresar al Sistema:
 
@@ -22,10 +21,10 @@ Una vez cargada la base, haga clic en el botón "INICIO" (a la izquierda) para e
 Esta es la zona de trabajo principal. Aquí podrá configurar qué fecha desea consultar. El panel se divide en Controles (arriba) y Resultados (abajo).
 
 ¿Cómo hacer una consulta?
-Tiene dos formas de usar el programa:
+Selecciona el año que desea predecir, si quiere predecir mensualmente aparte del año el mes, si quiere predecir un dia especifico seleccione el dia
 
 A. Predicción Detallada (Por Día)
-Ideal para saber el clima exacto de una fecha específica (ej. "¿Hará calor el 15 de Mayo de 2025?").
+Ideal para saber el clima exacto de una fecha específica.
 
 Seleccionar Año: Despliegue la lista "Año" y elija uno (ej. 2025).
 
@@ -44,17 +43,31 @@ Dejar Mes y Día en "Seleccionar": No elija ningún mes ni día específico.
 
 Botón Especial: Notará que aparece un botón nuevo a la izquierda llamado "PROMEDIO MENSUAL". Haga clic ahí.
 
+C. Predicción Mensual (Por Mes)
+
+Seleccionar Año: Despliegue la lista "Año" y elija uno (ej. 2025).
+
+Seleccionar Mes: Elija el mes deseado.
+
+Ejecutar: Presione el botón grande "Predecir".
+
+D. Predicción Anual (Por año)
+
+Seleccionar Año: Despliegue la lista "Año" y elija uno (ej. 2025).
+
+Ejecutar: Presione el botón grande "Predecir".
+
 3. Interpretación de Resultados
 Dependiendo de su consulta, el sistema le mostrará diferente información:
 
-En la Vista Diaria (Gráfica y Emoji)
+En la Vista Diaria (Gráfica)
 Gráfica Central: Verá una curva de temperaturas.
 
 Línea Roja: Representa la Temperatura Máxima (calor).
 
 Línea Azul: Representa la Temperatura Mínima (frío).
 
-Indicador Visual (Emoji): En el centro aparecerá una imagen indicando la sensación térmica del día:
+En el centro aparecerá una imagen indicando la sensación térmica del día:
 
 ❄️ Frio: Si el promedio es menor a 15°C.
 
