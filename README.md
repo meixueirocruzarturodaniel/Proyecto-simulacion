@@ -1,5 +1,10 @@
 # Proyecto-simulacion
 Bienvenido a Climas Locos, su herramienta digital para simular y predecir el comportamiento futuro de las temperaturas basándose en datos históricos. Esta guía le explicará paso a paso cómo operar el programa.
+#Si quiere ver las imagenes tendra que sacar del rar las imagenes y  modificar las lineas 39 a la 42 en el code con su propia ruta
+NOMBRE_IMAGEN = r'C:\Users\LENOVO\Desktop\RECETAS PROMODEL\imagen1.png'
+RUTA_EMOJI_CALIENTE = r'C:\Users\LENOVO\Desktop\RECETAS PROMODEL\EMOJICALIENTE.jpg'
+RUTA_EMOJI_FRIO = r'C:\Users\LENOVO\Desktop\RECETAS PROMODEL\EMOJIFRIO.jpg'
+RUTA_EMOJI_MEDIA = r'C:\Users\LENOVO\Desktop\RECETAS PROMODEL\EMOJIMEDIA.jpg'
 
 1. Pantalla de Inicio y Carga de Datos
 Al abrir el programa, verá la pantalla de bienvenida con un fondo y el título del proyecto. Antes de poder realizar cualquier predicción, el sistema necesita cargar una base de datos.
